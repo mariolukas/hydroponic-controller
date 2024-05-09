@@ -1,0 +1,31 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+#include "Arduino.h"
+
+// WIFI + MQTT
+#define MQTT_SERVER "<ip_of_your_mqqt_server>"
+#define WIFI_SSID "<ssid_here>"
+#define WIFI_PASSWORD "<wifi_password_here>"
+
+// Pump
+#define PUMP_PIN D5
+//#define TIME_DEEP_SLEEP_IN_SECONDS 720
+//#define PUMP_INTERVAL_IN_SECONDS 180
+#define TIME_DEEP_SLEEP_IN_SECONDS 20
+#define PUMP_INTERVAL_IN_SECONDS 10
+
+// TDS Sensor
+#define TDS_PIN A0
+
+// Ultrasonic Sensor
+#define SR04_ECHO_PIN D7
+#define SR04_TRIGGER_PIN D6
+#define MSG_BUFFER_SIZE	(50)
+#define MIN_WATER 20
+#define MAX_WATER 2
+
+
+// Temperature Sensor
+#define TEMP_WIRE_BUS 4
+
+#endif
