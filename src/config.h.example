@@ -9,10 +9,8 @@
 
 // Pump
 #define PUMP_PIN D5
-//#define TIME_DEEP_SLEEP_IN_SECONDS 720
-//#define PUMP_INTERVAL_IN_SECONDS 180
-#define TIME_DEEP_SLEEP_IN_SECONDS 20
-#define PUMP_INTERVAL_IN_SECONDS 10
+#define TIME_DEEP_SLEEP_IN_SECONDS 720
+#define PUMP_INTERVAL_IN_SECONDS 180
 
 // TDS Sensor
 #define TDS_PIN A0
@@ -23,7 +21,6 @@
 #define MSG_BUFFER_SIZE	(50)
 #define MIN_WATER 20
 #define MAX_WATER 2
-
 
 // Temperature Sensor
 #define TEMP_WIRE_BUS 4
